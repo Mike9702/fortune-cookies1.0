@@ -1,0 +1,66 @@
+.quoteBox {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto;
+
+}
+
+.title {
+    position:relative;
+    top:50px;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
+
+.section {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-rows: auto auto;
+  }
+  
+  .card {
+  background: rgba(255, 255, 255, 0.30);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  padding: 20px;
+  width: 300px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+    
+  }
+  
+  .card .phrase {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: rgb(255, 85, 0);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    position: absolute;
+    margin-bottom: -30%;
+  }
+  
+  .button:hover {
+    background-color: rgb(5, 71, 100);
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    
+  }
+
+  
+
