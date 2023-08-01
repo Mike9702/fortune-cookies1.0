@@ -45,11 +45,11 @@
     justify-content: center;
     align-items: center;
     height: 30vh;
-    margin-bottom: 40%;
+    margin-bottom: 20%;
   }
 
   .button {
-    position:absolute;
+    display: flex;
     background-color: rgb(255, 85, 0);
     color: #ffffff;
     padding: 10px 20px;
@@ -57,8 +57,8 @@
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;  
-    margin-top: 30%;
-    
+    height: 5vh;
+    margin-bottom: 10%;
   }
 
   
@@ -82,7 +82,7 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px; 
-    margin-top: 55%;
+    margin-bottom: -50%;
   }
 
   .footer {
