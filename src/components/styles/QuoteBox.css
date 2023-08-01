@@ -45,10 +45,26 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20%;
+    height: 30vh;
+    text-align: center;
+  }
+
+  p {
+    height: 7vh;
+  }
+
+  .footer_card{
+    display: grid;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    color: rgb(101, 101, 98);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
   }
 
   .button {
-    display: flex;
     background-color: rgb(255, 85, 0);
     color: #ffffff;
     padding: 10px 20px;
@@ -69,20 +85,6 @@
     backdrop-filter: blur(4px);
     box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
     
-  }
-
-
-  .footer_card{
-    
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(4px);
-    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-    color: rgb(48, 48, 47);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-   
-
   }
 
   .footer {
